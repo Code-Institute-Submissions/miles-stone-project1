@@ -15,6 +15,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 2px solid black;
     text-align: center;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -34,12 +35,18 @@ h1 {
     font-weight: 100;
 }
 
+/* ----- section ----*/
+
 .nav-home {
-    width: 100px;
-    height: 120px;
-    margin-left: 20px;
+    font-family: "Courgette";
+    font-size: 40px;
+    width: 200px;
+    height: 140px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 3%;
-    background-color: grey;
+    background-color: #afeaaf;
     text-align: center;
     padding: 0;
 }
@@ -52,14 +59,29 @@ h1 {
 }
 
 .nav-home a i {
-    padding-top: 22px;
+    padding-top: 30px;
     display: block;
     color: #fafafa;
-    font-size: 26px
+    font-size: 40px
 }
 
+ 
 .hvr-sweep-to-bottom {
-    width: 100px;
-    height: 120px;
-    border-radius: 3%;
+    width: 200px;
+    height: 140px;
+    border-radius: 3px;
+    padding: 0;
 }
+
+.statement {
+    font-family: "Roboto", sans-serif;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----- footer ----- */
