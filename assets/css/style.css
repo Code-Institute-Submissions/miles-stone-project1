@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
+body {
+    background-color: #c8baec;
+}
+
 /* ----- header ----- */
 
  /* margin left and right set to auto to center */
@@ -7,7 +11,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     background-image: url("../images/profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +30,10 @@
 .header {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 95%;
     border-bottom: 3px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -37,18 +44,43 @@ h1 {
 
 /* ----- section ----*/
 
+section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 10px;
+    background-image: url("../images/landscapes/leeds-tower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
 .nav-home {
     font-family: "Courgette";
     font-size: 40px;
     width: 200px;
     height: 140px;
+    background: rgba(0, 0, 0, 0.2);
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 3%;
-    background-color: #afeaaf;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+    background-color: none;
     text-align: center;
     padding: 0;
+}
+
+.nav-title {
+    color: #fafafa;
 }
 
 .nav-home a {
@@ -65,23 +97,93 @@ h1 {
     font-size: 40px
 }
 
+
+
  
-.hvr-sweep-to-bottom {
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
     width: 200px;
     height: 140px;
-    border-radius: 3px;
+    margin: 0;
     padding: 0;
 }
 
 .statement {
     font-family: "Roboto", sans-serif;
+    color: #fafafa;
     width: 50%;
-    border: 2px solid black;
-    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #fafafa;
+    border-radius: 5px;
     padding: 5px;
     margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* ----- footer ----- */
+
+footer .b-card-pdf i {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer .b-card-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-headers {
+    font-family: "Courgette"
+}
+
+.footer {
+    border-top: 2px solid black;
+    border-radius: 10px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.side-line {
+    height: 60px;
+    border-left: 2px solid black;
+    margin-left: 10px;
+}
+
+.social-media {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #2098d1;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3fa8da;
+}
+
+.b-card {
+    font-family: "Roboto", sans-serif;
+}
+
