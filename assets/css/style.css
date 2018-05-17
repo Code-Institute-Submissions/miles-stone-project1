@@ -16,6 +16,9 @@
     height: 200px;
     border-radius: 50%;
     text-align: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .header {
@@ -31,6 +34,32 @@ h1 {
     font-weight: 100;
 }
 
-.gallery-studio {
-    display: inline-block;
+.nav-home {
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    border-radius: 3%;
+    background-color: grey;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-home a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 120px;
+}
+
+.nav-home a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px
+}
+
+.hvr-sweep-to-bottom {
+    width: 100px;
+    height: 120px;
+    border-radius: 3%;
 }
