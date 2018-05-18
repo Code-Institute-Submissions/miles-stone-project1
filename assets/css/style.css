@@ -6,8 +6,9 @@ body {
 
 /* ----- header ----- */
 
- /* margin left and right set to auto to center */
-.profile{
+/* margin left and right set to auto to center */
+
+.profile {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -61,8 +62,6 @@ section {
     -webkit-transition: all .5s ease-in-out;
 }
 
-
-
 .nav-home {
     font-family: "Courgette";
     font-size: 40px;
@@ -99,7 +98,7 @@ section {
 
 
 
- 
+
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -186,4 +185,3 @@ footer .b-card-pdf i:hover {
 .b-card {
     font-family: "Roboto", sans-serif;
 }
-
