@@ -39,8 +39,32 @@
                 <div class="nav-home"><a href="contact.html" class="hvr-sweep-to-bottom"><i class="glyphicon glyphicon-phone-alt" aria-hidden="true"></i><span class="nav-title">Contact</span></a></div>
             </div>
         </div>
-        
-    
+
+        <div class="input-fields">
+            <p class="contact-paragraph">If you'd like to get in touch, make an enquiry about my service or discuss a potential joint venture?<br> Then fill in the appropriate fields below.<br>Or you can either download by buisness card at the bottom or click on my social media links!</p>
+        </div>
+
+
+        <!-- input fields -->
+        <div class="form">
+            <form action="https://posttesterserver.com/post.php" method="post">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <br>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <br>
+                <select class="form-control">
+                 <option label="Whats you enquiry about?" class="form-control">
+                 <option>Photography</option>
+                 <option>A joint project.</option>
+                 <option>My costs</option>
+                 <option>Other (please explain below)</option>
+                </select>
+                <br>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                <br>
+                <button type="submit" class="btn btn-secondary center-block">Send Enquiry</button>
+            </form>
+        </div>
 
     </section>
 
