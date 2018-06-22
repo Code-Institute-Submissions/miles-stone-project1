@@ -778,7 +778,9 @@ button[type="submit"] {
 
 /* ----- Video/Studio page ----- */
 
-
+.video {
+    width: 70%;
+}
 
 /* ----- footer ----- */
 
