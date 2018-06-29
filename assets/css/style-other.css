@@ -8,7 +8,8 @@ body {
 
 /* margin left and right set to auto to center */
 
-.profile {
+
+.profile-pic{
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -27,6 +28,18 @@ body {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+.profile-pic-link {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
 
 .header {
     margin-left: auto;
