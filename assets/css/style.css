@@ -62,7 +62,7 @@ section {
     margin-top: 10px;
     width: 90%;
     border-radius: 10px;
-    background-image: url("../images/canal-dock-home-page.jpg");
+    background-image: url("../images/canal-dock-homepage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,17 +112,17 @@ section {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    width: 195px;
-    height: 135px;
+    width: 197px;
+    height: 137px;
     margin: 0;
     padding: 0;
 }
 
 .statement {
-    font-family: "Roboto", sans-serif;
+    font-family: "Courgette", sans-serif;
     color: #fafafa;
     width: 50%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     border: 2px solid #fafafa;
     border-radius: 5px;
     padding: 5px;
@@ -133,6 +133,36 @@ section {
 }
 
 /* ----- footer ----- */
+
+.fa-facebook {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #4267b2;
+    color: #fafafa;
+}
+
+.fa-twitter {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #1da1f2;
+    color: #fafafa;
+}
+
+.fa-linkedin {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #0077b5;
+    color: #fafafa;
+}
+
+.fa-instagram {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #bc2a8d;
+    color: #fccc63;
+}
+
+.fa-youtube {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff0000;
+    color: #fafafa;
+}
 
 footer .b-card-pdf i {
     color: black;
@@ -163,6 +193,7 @@ footer .b-card-pdf i:hover {
 .side-line {
     height: 60px;
     border-left: 2px solid black;
+    border-radius: 5px;
     margin-left: 10px;
 }
 
@@ -180,8 +211,8 @@ footer .b-card-pdf i:hover {
     font-size: 25px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #2098d1;
+    /*-- color: #fafafa; --*/
+    /*-- background: #2098d1; --*/
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
