@@ -8,7 +8,7 @@ body {
 
 /* margin left and right set to auto to center */
 
-.profile-pic{
+.profile-pic {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -189,11 +189,12 @@ footer .b-card-pdf i:hover {
     border-radius: 10px;
     width: 95%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .side-line {
     height: 60px;
+    padding: 0 0;
     border-left: 2px solid black;
     border-radius: 5px;
     margin-left: 10px;
@@ -228,3 +229,99 @@ footer .b-card-pdf i:hover {
 .b-card {
     font-family: "Roboto", sans-serif;
 }
+
+/*--- media queries ---*/
+
+/*-- 768px --*/
+
+/*--
+
+@media (max-width: 768px) {
+    .social-links li a i {
+        width: 48px;
+        height: 48px;
+        padding: 18px 0;
+        border-radius: 50%;
+        font-size: 37.5px;
+        line-height: 10.5px;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .fa-download {
+        margin-left: 2.5px;
+        font-size: 27px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .side-line {
+        height: 90px;
+        border-left: 2px solid black;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-margin {
+        padding: 0;
+        margin-top: 5px;
+    }
+}
+
+--*/
+
+/*--- 992px ---*/
+
+
+@media (max-width: 992px) {
+    .social-links li a i {
+        width: 64px;
+        height: 64px;
+        padding: 24px 0;
+        border-radius: 50%;
+        font-size: 50px;
+        line-height: 14px;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .fa-download {
+        margin-left: 5px;
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .side-line {
+        height: 120px;
+        border-left: 2px solid black;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-margin {
+        padding: 0;
+        margin-top: 5px;
+    }
+}
+
+
+

@@ -151,7 +151,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 90%;
 }
 
@@ -159,7 +159,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 50%;
 }
 
@@ -265,7 +266,7 @@ footer .b-card-pdf i:hover {
     border-radius: 10px;
     width: 95%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .side-line {
@@ -303,4 +304,188 @@ footer .b-card-pdf i:hover {
 
 .b-card {
     font-family: "Roboto", sans-serif;
+}
+
+
+/*--- media queries ---*/
+
+/*-- 768px --*/
+
+/*--
+
+@media (max-width: 768px) {
+    .social-links li a i {
+        width: 48px;
+        height: 48px;
+        padding: 18px 0;
+        border-radius: 50%;
+        font-size: 37.5px;
+        line-height: 10.5px;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .fa-download {
+        margin-left: 2.5px;
+        font-size: 27px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .side-line {
+        height: 90px;
+        border-left: 2px solid black;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-margin {
+        padding: 0;
+        margin-top: 5px;
+    }
+}
+
+--*/
+
+/*--- 992px ---*/
+
+/*-- social links --*/
+
+@media (max-width: 992px) {
+    .social-links li a i {
+        width: 64px;
+        height: 64px;
+        margin-left: 20px;
+        padding: 24px 0;
+        border-radius: 50%;
+        font-size: 50px;
+        line-height: 14px;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .fa-download {
+        margin-left: 5px;
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .side-line {
+        height: 120px;
+        border-left: 2px solid black;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-margin {
+        padding: 0;
+        margin-top: 5px;
+    }
+}
+
+/*-- gallery --*/
+
+@media (max-width: 992px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+/*-- navigation buttons --*/
+
+@media (max-width: 992px) {
+    .nav-home {
+        font-family: "Courgette";
+        font-size: 30px;
+        width: 150px;
+        height: 112.5px;
+        background: rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #fafafa;
+        border-radius: 5px;
+        background-color: none;
+        text-align: center;
+        padding: 0;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (max-width: 992px) {
+    .hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 146px;
+    height: 109px;
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media (max-width: 992px) {
+    .glyphicon {
+        font-weight: 800;
+        line-height: 2;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-pic {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-image: url("../images/profile-pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+}
+
+@media (max-width: 992px) {
+    .profile-pic-link {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 50%;
+}
 }
