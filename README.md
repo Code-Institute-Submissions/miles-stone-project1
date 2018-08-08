@@ -2,19 +2,21 @@
 # Mile Stone 1 Project.
 ## "Thomas Dodson Photography."
 
-
+*Links to both the live website and GitHub repository.*
+- <a href="https://twdstudent.github.io/miles-stone-project1/contact.html">Link to live website.</a>
+- <a href="https://github.com/twdstudent/miles-stone-project1#top">Link to GitHub Repository.</a>
 
 *Please use the links below to navigate this README.md file.*
 
-* <a href="#External-Frame-Works">External Frame Works</a>
+- <a href="#External-Frame-Works">External Frameworks</a>
 <br>
-* <a href="#The-CSS">The CSS</a>
+- <a href="#The-CSS">The CSS</a>
 <br>
-* <a href="#Images">Images</a>
+- <a href="#Images">Images</a>
 <br>
-* <a href="#Video/Audio">Video/Audio</a>
+- <a href="#Video/Audio">Video/Audio</a>
 <br>
-* <a href="#Media-Queries">Media Queries</a>
+- <a href="#Media-Queries">Media Queries</a>
 
 The brief was to create a website for a band but I have built one for a photography
 website.
