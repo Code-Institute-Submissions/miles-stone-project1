@@ -9,13 +9,9 @@
 *Please use the links below to navigate this README.md file.*
 
 - <a href="#External-Frame-Works">External Frameworks</a>
-<br>
 - <a href="#The-CSS">The CSS</a>
-<br>
 - <a href="#Images">Images</a>
-<br>
 - <a href="#Video/Audio">Video/Audio</a>
-<br>
 - <a href="#Media-Queries">Media Queries</a>
 
 The brief was to create a website for a band but I have built one for a photography
