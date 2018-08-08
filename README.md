@@ -3,7 +3,7 @@
 ## "Thomas Dodson Photography."
 
 *Links to both the live website and GitHub repository.*
-- <a href="https://twdstudent.github.io/miles-stone-project1/contact.html">Link to live website.</a>
+- <a href="https://twdstudent.github.io/miles-stone-project1/">Link to live website.</a>
 - <a href="https://github.com/twdstudent/miles-stone-project1#top">Link to GitHub Repository.</a>
 
 *Please use the links below to navigate this README.md file.*
